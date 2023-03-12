@@ -86,6 +86,8 @@ if((c-a)**2 + (d-b)**2<= (radio) **2):
     print( " los puntos de r2 " +str(c)+ "," +str(d) + " se encuentra en el circulo")  
 else: 
      if((c-a)**2 + (d-b)**2>= (radio) **2):
-        print(" los puntos de r2 " +str(c)+ "," +str(d) + " se encuentra en el circulo")
+        print(" los puntos de r2 " +str(c)+ "," +str(d) + " no se encuentra en el circulo")
 ```
+
+
 
