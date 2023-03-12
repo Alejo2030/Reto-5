@@ -46,6 +46,15 @@ else :
     print("carácter "+str(d)+" no es un dígito ")
 ```
 
+```ruby
+n : int
+n= input("Ingrese un caracter ")
+if n>= "0" and n<= "9":
+    print( " El caracter " + str(n) + " es un digito")
+if n> "9":
+    print( "el caracter" + str(n) + " no es un digito")
+```
+
 
 
 
