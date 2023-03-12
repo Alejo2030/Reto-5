@@ -44,3 +44,22 @@ if n >= 48 or n <=59:
 else :
     print("carácter "+str(d)+" no es un dígito ")
 ```
+
+
+
+
+***4. Dado un número real x, construya un programa que permita determinar si el número es positivo, negativo o cero. Para cada caso de debe imprimir el texto que se especifica a continuación:***
+
+
+**Positivo: "El número x es positivo" Negativo: "El número x es negativo" Cero (0): "El número x es el neutro para la suma"**
+
+```ruby
+z : float
+z = float(input("Ingrese un numero: "))
+if z == 0:
+    print("El numero "+str(z) + " es el neutro para la suma ")
+if z > 0:
+    print(" El numero "+str(z)+ " es positivo")
+else:
+    print("El numero"+ str(z)+ " es negativo")
+```
