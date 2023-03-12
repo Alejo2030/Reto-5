@@ -63,3 +63,29 @@ if z > 0:
 else:
     print("El numero"+ str(z)+ " es negativo")
 ```
+
+
+
+***5.Dado el centro y el radio de un círculo, determinar si un punto de R2 pertenece o no al interior del círculo.***
+
+
+```ruby
+#Coordenadas del circulo
+a : float
+b : float
+#Coordenadas de R2
+c : float
+d : float 
+radio : float 
+a = float (input(" Inserte la coordenada en el eje  x del centro del circulo: "))
+b = float (input(" Inserte la coordenada en el eje  y del centro del circulo: "))
+radio = float(input("Inserte el radio del circulo respectivo: "))
+c = float(input(" Inserte la coordenada en el eje x de R2: "))
+d = float(input(" Inserte la coordenada en el eje y de R2"))
+if((c-a)**2 + (d-b)**2<= (radio) **2):
+    print( " los puntos de r2 " +str(c)+ "," +str(d) + " se encuentra en el circulo")  
+else: 
+     if((c-a)**2 + (d-b)**2>= (radio) **2):
+        print(" los puntos de r2 " +str(c)+ "," +str(d) + " se encuentra en el circulo")
+```
+
