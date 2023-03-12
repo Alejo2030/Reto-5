@@ -120,3 +120,9 @@ if s+i>p and p+i>s:
 else:
     print(" No se puede hacer un triangulo" ) 
  ```
+
+
+***Imagen importante***
+
+
+[![ASCII.png](https://i.postimg.cc/k55rtksx/ASCII.png)](https://postimg.cc/9Dsg6gvM)
