@@ -102,3 +102,18 @@ else:
 
 
 ***6 .Dadas tres longitudes positivas, determinar si con esas longitudes se puede construir un triángulo.***
+
+
+```ruby
+#Longitudes 
+i : float
+s : float
+p : float 
+i = float(input("Inserte longitud: "))
+s = float(input("Inserte longitud: "))
+p = float(input("Inserte longitud: "))
+if s+i>p and p+i>s:
+    print( "Se puede hacer un triangulo")
+else:
+    print(" No se puede hacer un triangulo" ) 
+ ```
