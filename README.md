@@ -36,10 +36,11 @@ else:
 
 
 
-```d=input("Ingrese un carácter")
+```ruby
+d=input("Ingrese un carácter")
 ord(d)
 n=ord(d)
-if n >= 48 or n <=59:
+if n >= 48 or n <=57:
     print("carácter "+str(d)+" es un dígito ")
 else :
     print("carácter "+str(d)+" no es un dígito ")
