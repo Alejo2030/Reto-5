@@ -91,3 +91,4 @@ else:
 
 
 
+***6 .Dadas tres longitudes positivas, determinar si con esas longitudes se puede construir un triángulo. ***
