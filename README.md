@@ -37,7 +37,7 @@ else:
 
 
 ```ruby
-d=input("Ingrese un carácter")
+d=input("Ingrese un carácter: ")
 ord(d)
 n=ord(d)
 if n >= 48 or n <=57:
