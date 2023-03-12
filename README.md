@@ -47,12 +47,12 @@ else :
 ```
 
 ```ruby
-n : int
-n= input("Ingrese un caracter ")
-if n>= "0" and n<= "9":
+n = int(input("Ingrese un caracter "))
+if  n>=0 and n<=9:
     print( " El caracter " + str(n) + " es un digito")
-if n> "9":
-    print( "el caracter" + str(n) + " no es un digito")
+else:
+    print( "el caracter " + str(n) + " no es un digito")
+
 ```
 
 
