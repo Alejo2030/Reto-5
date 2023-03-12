@@ -29,3 +29,18 @@ if numero_ascii % 2 == 0 :
 else:
     print("El codigo ASCCII de la primera letra es impar")
 ```
+
+
+
+***3. Dado un carácter, construya un programa en Python para determinar si el carácter es un dígito o no.***
+
+
+
+```d=input("Ingrese un carácter")
+ord(d)
+n=ord(d)
+if n >= 48 or n <=59:
+    print("carácter "+str(d)+" es un dígito ")
+else :
+    print("carácter "+str(d)+" no es un dígito ")
+```
